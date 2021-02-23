@@ -127,7 +127,7 @@ class Circle
     this.w = wdth;
     this.h = hght;
 
-    this.c = color(this.rndColour(), this.rndColour(), this.rndColour(), (this.rndColour() / 5));
+    this.c = color(this.rndColour(), this.rndColour(), this.rndColour(), 125);
   }
   
   display()
@@ -140,7 +140,7 @@ class Circle
 
   changeColour()
   {
-    this.c = color(this.rndColour(), this.rndColour(), this.rndColour(), (this.rndColour() / 5));
+    this.c = color(this.rndColour(), this.rndColour(), this.rndColour(), 125);
   }
 }
 
